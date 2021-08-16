@@ -218,5 +218,5 @@ async def ping (ctx):
             if(channel.name == 'wafaduck-alerts'):
                 await channel.send(f'{alerts.mention}')"""
 
-client.run('ODc1MzIwNzg3MzA4MDA3NDM0.YRT0Ag.Y6oRXXa0WAkCjCG3_7ykaHK6AoI')
+client.run('')#token
 
