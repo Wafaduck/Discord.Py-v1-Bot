@@ -40,7 +40,7 @@ async def alert(ctx, *, msg): #COMMAND NAME
                 embed=discord.Embed(title= ':money_with_wings: **Stock Alert** :money_with_wings:', description= (msg), url='https://twitter.com/lowfloatmomo', color=0x33FF9F, timestamp=datetime.datetime.utcnow())
                 """embed.set_author(name="Crypto Alert", icon_url = ctx.author.avatar_url)""" #Top left name # IGNORE
                 embed.set_thumbnail(url='https://c1.peakpx.com/wallpaper/344/741/154/bull-sculpture-ox-horns-animal-wallpaper.jpg')
-                embed.set_footer(icon_url = ctx.author.avatar_url, text='Powered by Duck Programming',)
+                embed.set_footer(icon_url = ctx.author.avatar_url, text='Powered by LowFloatMomentum',)
                 await channel.send(f"{role.mention}")                 
                 await channel.send(embed=embed)
                 await channel.send(
@@ -67,7 +67,7 @@ async def trim(ctx, *, msg): #COMMAND NAME
                 embed=discord.Embed(title= ':scissors: **Crypto Trim** :scissors:', description= (msg), url='https://twitter.com/lowfloatmomo', color=0x33FF9F, timestamp=datetime.datetime.utcnow())
                 """embed.set_author(name="Crypto Alert", icon_url = ctx.author.avatar_url)""" #Top left name # IGNORE
                 embed.set_thumbnail(url='https://c1.peakpx.com/wallpaper/344/741/154/bull-sculpture-ox-horns-animal-wallpaper.jpg')
-                embed.set_footer(icon_url = ctx.author.avatar_url, text='Powered by Duck Programming',)
+                embed.set_footer(icon_url = ctx.author.avatar_url, text='Powered by LowFloatMomentum',)
                 await channel.send(f"{role.mention}")                 
                 await channel.send(embed=embed)
                 await channel.send(
@@ -91,7 +91,7 @@ async def update(ctx, *, msg): #COMMAND NAME
                 embed=discord.Embed(title= ':warning: **Stock Update** :warning: ', description= (msg), url='https://twitter.com/lowfloatmomo', color=0x33FF9F, timestamp=datetime.datetime.utcnow())
                 """embed.set_author(name="Crypto Alert", icon_url = ctx.author.avatar_url)""" #Top left name # IGNORE
                 embed.set_thumbnail(url='https://c1.peakpx.com/wallpaper/344/741/154/bull-sculpture-ox-horns-animal-wallpaper.jpg')
-                embed.set_footer(icon_url = ctx.author.avatar_url, text='Powered by Duck Programming',)
+                embed.set_footer(icon_url = ctx.author.avatar_url, text='Powered by LowFloatMomentum',)
                 await channel.send(f"{role.mention}")                 
                 await channel.send(embed=embed)
                 await channel.send(
@@ -116,7 +116,7 @@ async def image(ctx, *, msg): #COMMAND NAME
                 """embed.set_author(name="Stock Alert", icon_url = ctx.author.avatar_url)""" #Top left name # IGNORE
                 embed.set_thumbnail(url='https://c1.peakpx.com/wallpaper/344/741/154/bull-sculpture-ox-horns-animal-wallpaper.jpg')
                 embed.set_image(url=ctx.message.attachments[0].url)
-                embed.set_footer(icon_url = ctx.author.avatar_url, text='Powered by Duck Programming',)
+                embed.set_footer(icon_url = ctx.author.avatar_url, text='Powered by LowFloatMomentum',)
                 await channel.send(f"{role.mention}")                 
                 await channel.send(embed=embed)
                 await channel.send(
